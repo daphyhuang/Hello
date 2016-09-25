@@ -1,0 +1,12 @@
+
+public class Hello {
+	public static void main(String[] args) {
+		System.out.println("Hello world!");
+		System.out.println("\"Hi,\" said " + args[0] + " and " + args[3] +  ".");
+		if(args.length<5){
+			System.out.println("You have only put in " + args.length + " arguments. This program requires at least 4 arguments.");
+		}
+			
+	}
+
+}
